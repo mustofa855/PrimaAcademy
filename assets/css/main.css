@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn-cta {
+        @apply rounded-full py-[13px] px-[25px] font-semibold text-white bg-gradient-to-br from-[#9F3434] to-[#CC433B] ;
+    }
+
+    /* .btn-standar-shadow {
+        @apply rounded-full py-[13px] pl-8 pr-4 font-semibold text-white shadow-btn-default bg-gradient-to-br to-[#9F3434] via-[#CC433B] from-[#9F3434] bg-size-200 bg-pos-0 hover:bg-pos-100 disabled:cursor-not-allowed;
+    } */
+    /* hover gradient trend 2010, tidak sesuai dengan tema web yang clean & spacy, kalau mau pakai gradient, pakai ripple. Kalau tidak sesuai mangga dibalikin saja sama yang atas */
+    .btn-standar-shadow {
+        @apply rounded-full py-[13px] px-6 font-semibold text-white shadow-lg text-center bg-11 hover:bg-11/80 disabled:bg-gray-300 disabled:text-gray-500 ;
+    }
+    .btn-standar {
+        @apply rounded bg-11 text-white py-1.5 px-4 hover:bg-11/80
+    }
+
+    .btn-standar-icon {
+        @apply rounded-full py-[13px] pl-8 pr-4 font-semibold text-white shadow-btn-default bg-gradient-to-br from-[#9F3434] to-[#CC433B] disabled:cursor-not-allowed;
+    }
+
+    .btn-standar-outline-11 {
+        @apply rounded-full border border-11 text-11 bg-none py-3.5 px-6 hover:bg-11 hover:text-white;
+    }
+
+    .btn-big-outline-20 {
+        @apply border border-20 rounded-full py-3plus flex justify-center cursor-pointer hover:bg-20 text-20 hover:text-white;
+    }
+
+    .btn-standar-outline-20 {
+        @apply border border-20 rounded-full py-2.5plus flex justify-center cursor-pointer hover:bg-20 text-20 hover:text-white;
+    }
+
+    .btn-small-outline-20 {
+        @apply border border-20 rounded-full py-1 flex justify-center cursor-pointer text-xs hover:bg-20 text-20 hover:text-white;
+    }
+
+    .btn-cancel {
+        @apply border border-enam rounded-full flex justify-center cursor-pointer hover:bg-20 text-enam hover:text-white;
+    }
+
+    .btn-kotak {
+        @apply border px-4 py-2 border-gray-300 hover:border-gray-500 transition-all duration-200;
+    }
+    .transition-default {
+        @apply transition-all duration-200 ease-in-out;
+    }
+
+    /* .btn-standar-outline-icon {
+
+    }
+
+    .btn-link {
+        
+    } */
+
+    h2 {
+        @apply text-[49px];
+    }
+
+    h3 {
+        @apply text-[39px];
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Warna Button */
+    .warna-button-normal {
+        @apply bg-gradient-to-br from-[#9F3434] to-[#CC433B] 
+    }
+
+    .warna-button-hover {
+        @apply bg-gradient-to-br from-[#CC433B] to-[#9F3434]
+    }
+
+    /* .section-title {
+        @apply text-base md:text-xl lg:text-3xl
+    } */
+    
+    #ModalBase .inline-block.align-bottom.bg-white {
+        margin-top: 35vh !important;
+    }
+
+    @media (max-width: 640px) { 
+        #ModalBase .inline-block.align-bottom.bg-white {
+            margin-top: 16px !important;
+            margin-bottom: 30vh !important;
+        }
+     }
+
+}
+
+
+
+
+

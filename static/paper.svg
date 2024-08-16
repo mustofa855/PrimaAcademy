@@ -1,0 +1,11 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="Path_159" data-name="Path 159" d="M17,19.86H7a1.18,1.18,0,0,1-1.2-1.18V5.32A1.18,1.18,0,0,1,7,4.14h7.78a.67.67,0,0,1,.48.2L18,7.1a.67.67,0,0,1,.2.48v11.1A1.18,1.18,0,0,1,17,19.86ZM7.15,18.51h9.7V7.86L14.48,5.49H7.15Z" fill="#fff"/>
+    <path id="Path_160" data-name="Path 160" d="M17.53,8.26H14.76a.68.68,0,0,1-.67-.68V4.82h1.35V6.9h2.09Z" fill="#fff"/>
+    <path id="Path_161" data-name="Path 161" d="M14.76,4.82V7.58h2.76" fill="#fff"/>
+    <rect id="Rectangle_90" data-name="Rectangle 90" width="7.77" height="1.01" rx="0.505" transform="translate(8.11 9.13)" fill="#fff"/>
+    <rect id="Rectangle_91" data-name="Rectangle 91" width="7.77" height="1.01" rx="0.505" transform="translate(8.11 11.49)" fill="#fff"/>
+    <rect id="Rectangle_92" data-name="Rectangle 92" width="7.77" height="1.01" rx="0.505" transform="translate(8.11 13.86)" fill="#fff"/>
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="24" height="24" fill="none"/>
+  </g>
+</svg>
